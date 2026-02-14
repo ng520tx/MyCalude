@@ -1,0 +1,25 @@
+{
+  "name": "devpilot-cli",
+  "version": "0.1.0",
+  "description": "A CLI tool for training Claude Code capabilities",
+  "main": "dist/index.js",
+  "bin": {
+    "devpilot": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "devpilot",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
